@@ -5,8 +5,8 @@ export default function Spinner() {
     return (
         <LoaderContainer>
             <BallTriangle
-            type="BallTriangle"
-            color="darkgrey"
+            type="Hearts"
+            color="#ec7e89"
             height={120}
             width={120}
             timeout={8000}
