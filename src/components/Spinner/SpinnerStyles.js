@@ -10,5 +10,6 @@ export const LoaderContainer = styled.div`
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
+    animation-duration: 2000ms;
     ${'' /* background-color: red; */}
 `;

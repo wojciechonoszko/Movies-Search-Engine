@@ -1,15 +1,16 @@
-import { Hearts } from 'react-loader-spinner';
+import { Circles } from 'react-loader-spinner';
 import { LoaderContainer } from './SpinnerStyles';
 
 export default function Spinner() {
   return (
     <LoaderContainer>
-      <Hearts
+      <Circles
         type="Hearts"
-        color="red"
+        color="pink"
         height={120}
         width={120}
         timeout={8000}
+        
       />
     </LoaderContainer>
   );
