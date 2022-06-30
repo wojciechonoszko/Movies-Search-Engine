@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const GridContainer = styled.div`
     padding: 0px 30px;
     margin: 0px auto;
-    background-color: #5b280d75;
+    background-color: #D7EBEC;
 `;
 
 export const GridList = styled.ul`

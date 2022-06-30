@@ -7,10 +7,11 @@ export const Search = styled(NavLink)`
     border: 6px solid grey;
     border-radius: 20px;
     background-color: #253334;
-    color: antiquewhite;
+    color: #D8BA24;
     :hover {
-    background-color: #2196f3;
-    transition: all 1s linear 0s;
+    background-color: transparent;
+    transition: all 0.2s linear 0s;
+    color: black;
 `;
 
 export const BtnWrapper = styled.div`

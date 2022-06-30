@@ -48,7 +48,7 @@ export default function Movies() {
                 Notify.failure('Write the correct Movie title, please', {
                     position: 'center-center',
                     fontSize: '24px',
-                    timeout: 2500,
+                    timeout: 7500,
                     width: '30%',
                 });
                 return;

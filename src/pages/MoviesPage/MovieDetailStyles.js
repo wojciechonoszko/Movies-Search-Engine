@@ -8,8 +8,8 @@ export const Wrapper = styled.div`
     margin: 0 auto 20px;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    color: #faebd7;
-    background-color: #253334;
+    color: #E5DE1F;
+    background-color: #66665A;
 `;
 
 export const WrapperInfo = styled.div`
@@ -48,12 +48,12 @@ export const LinkDetail = styled(NavLink)`
     border: 3px solid grey;
     padding: 8px;
     border-radius: 20px;
-    color: #faebd7;
+    color: #E5DE1F;
     :not(:last-child) {
     margin-right: 30px;
     }
     :hover {
-    background-color: #2196f3;
+    background-color: #26261E;
     transition: all 1s linear 0s;
     }
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Form = styled.form`
     display: flex;
     justify-content: center;
-    background-color: #253334;
+    background-color: #4AA2A8;
     padding-bottom: 20px;
 `;
 

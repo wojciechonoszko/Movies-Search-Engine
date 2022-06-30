@@ -61,6 +61,12 @@ export default function MovieDetail() {
                         >
                             Reviews
                         </LinkDetail>
+                        <LinkDetail
+                        to={`movies/${moviesId}/cast`}
+                        state={{ from: locationFrom }}
+                        >
+                        Cast
+                        </LinkDetail>
                         <Outlet />
                     </MovieInfo>
                 </Wrapper>

@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getMovieCast } from 'Api/Api';
 import { CastList, ListItem } from './CastStyles';
-import noPoster from '../../images/no-poster.jpg';
+import noImage from '../../images/no-image.png';
 
 
 export default function Cast() {
@@ -27,7 +27,7 @@ export default function Cast() {
                             src={
                                 actor.profile_path
                                 ? `${actorImg}${actor.profile_path}`
-                                : noPoster
+                                : noImage
                             }
                             alt={actor.name}
                             width="100"
