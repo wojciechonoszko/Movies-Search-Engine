@@ -12,7 +12,7 @@ import {
     LinkDetail,
     MovieInfo,
     ImgWrapper,
-} from './MovieDetail.styled';
+} from './MovieDetailStyles';
 
 export default function MovieDetail() {
     const { moviesId } = useParams();
@@ -48,7 +48,7 @@ export default function MovieDetail() {
                             </FirstTitle>
                             <p>User Score: {movie.vote_average}</p>
                             <SecondTitle>Overview</SecondTitle>
-                            <p>{move.overview}</p>
+                            <p>{movie.overview}</p>
                             <ThirdTitle>Genres</ThirdTitle>
                             <p>{movie.genres.map(gener => gener.name + ' ')}</p>
                         </WrapperInfo>

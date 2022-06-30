@@ -4,6 +4,7 @@ import { getMovieCast } from 'Api/Api';
 import { CastList, ListItem } from './CastStyles';
 import noPoster from '../../images/no-poster.jpg';
 
+
 export default function Cast() {
     const { moviesId } = useParams();
     const [movie, setMovie] = useState([]);

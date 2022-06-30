@@ -1,4 +1,4 @@
-import styled from 'component-styled';
+import styled from 'styled-components';
 
 export const CastList = styled.ul`
   list-style: none;
@@ -9,6 +9,7 @@ export const CastList = styled.ul`
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   gap: 12px;
 `;
+
 export const ListItem = styled.li`
   width: 160px;
   height: 100%;

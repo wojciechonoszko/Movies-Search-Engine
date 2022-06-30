@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import {getTrendingMovies } from 'Api/Api';
-import { Link } from '../../components/LayoutStyles';
+import { Link } from '../../components/Layout/LayoutStyles';
 import {
     GridList,
     GalleryCard,

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { NavLink } from 'reac-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Header = styled.header`
     background-color: #253334;

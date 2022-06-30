@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const From = styled.form`
+export const Form = styled.form`
     display: flex;
     justify-content: center;
     background-color: #253334;
